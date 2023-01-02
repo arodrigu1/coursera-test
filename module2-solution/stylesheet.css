@@ -21,7 +21,7 @@ div p {
 .menu {
     border: solid black 1px;
     background-color: lightgrey;
-    height: 300px;
+    height: auto;
     margin-bottom: 20px !important;
     margin: 10px;
     position: relative;
