@@ -1,0 +1,68 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+div p {
+    padding: 20px;
+}
+.menuoption {
+    width: 33%;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: solid black 1px;
+    position:absolute;
+    top: 0;
+    right:0;
+
+}
+.menu {
+    border: solid black 1px;
+    background-color: lightgrey;
+    height: 240px;
+    margin-bottom: 20px !important;
+    margin: 10px;
+    position: relative;
+
+}
+.menuoption1 {
+    background-color: salmon;
+}
+.menuoption2 {
+    background-color: firebrick;
+}
+.menuoption3 {
+    background-color: palegoldenrod;
+}
+.row {
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 992px) {
+    .col-lg-4 {
+        width: 33%;
+        float: left;
+        position: relative;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-md-12 {
+        width: 100%;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%
+    }
+}
